@@ -2,11 +2,11 @@
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 node_modules
 assets/css/main.css.map
+assets/vendor/*
 
 # ::  including these because the auto-deploy system on wp prod
 #     is not able to automatically run builds on merge
 #
-# assets/vendor/*
 # assets/css/*main*.css
 # assets/js/*scripts*.js
 # assets/js/vendor/modernizr.min.js
